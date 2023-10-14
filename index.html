@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant website</title>
+
+    <!-- remix icon cdn-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+rel="stylesheet" >
+
+    <!-- custom css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+       <nav class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <div class="logo">
+                    <h1>Burger <span class="highlight">King</span></h1>
+                </div>
+                <div class="navigation">
+                    <ul class="nav__menu">
+                        <li class="nav__items" ><a href="#home" class="nav__link" >Home</a></li>
+                        <li class="nav__items"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__items"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__items"><a href="#blog" class="nav__link">Blog</a></li>
+                        <li class="nav__items"><a href="#register" class="nav__link">Register</a></li>
+                    </ul>
+                </div>
+                <span class="mobile__menu"><i class="ri-menu-line"></i></span>
+            </div>
+            
+        </div>
+       
+       </nav>
+    </header>
+    
+    <main>
+        <section class="home" class="section" id="home">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <h2 class="hero__title">Today's Special</h2>
+                        <h2 class="highlight">Italian pizza</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Vitae, asperiores adipisci.
+                             incidunt voluptas nisi quibusdam quo doloremque?</p>
+
+                             <div class="hero__btns">
+                                <button class="view__more-btn">View Menu</button>
+                                 <span class="play__btn"><i class="ri-play-fill"></i>
+                                </span>              
+                            </div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="./images/hero-img.png" alt="">
+                       </div>
+                </div>
+               
+            </div>
+        </section>
+        <!--
+            popular dishes section
+        -->
+        <section class="section">
+            <div class="container">
+                <div class="dishes__section-top">
+                    <h2>Popular Dishes</h2>
+                </div>
+                <div class="dishes__wrapper">
+                    <div class="dish__item">
+                        <div class="dish__img">
+                            <img src="./images/dishes-01.png" alt="">
+                        </div>
+                        <div class="dish__content">
+                            <h3>Special pizza</h3>
+                            <div class="ratings">
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                            </div>
+                            <div class="dish__content-bottom">
+                                <span class="dish__price">$25</span>
+                                <span class="add__to-cart">
+                                    <i class="ri-shopping-cart-line"></i>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dish__item">
+                        <div class="dish__img">
+                            <img src="./images/dishes-02.png" alt="">
+                        </div>
+                        <div class="dish__content">
+                            <h3>Pasta</h3>
+                            <div class="ratings">
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                            </div>
+                            <div class="dish__content-bottom">
+                                <span class="dish__price">$15</span>
+                                <span class="add__to-cart">
+                                    <i class="ri-shopping-cart-line"></i>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dish__item">
+                        <div class="dish__img">
+                            <img src="./images/dishes-03.png" alt="">
+                        </div>
+                        <div class="dish__content">
+                            <h3>vegetables</h3>
+                            <div class="ratings">
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                            </div>
+                            <div class="dish__content-bottom">
+                                <span class="dish__price">$20</span>
+                                <span class="add__to-cart">
+                                    <i class="ri-shopping-cart-line"></i>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+            about us section
+        -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__img">
+                        <img src="./images/burger.png" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h3>We pride ourselves on making real
+                             food from the best</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                 Odit quos mollitia dolorem, ullam dolore veritatis.</p>
+                                 <button class="learn__more"><a href="#">Order more</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menu section-->
+        <section class="section" id="menu">
+            <div class="container">
+                <div class="menu__section-top">
+                    <h2>Special Menu for You</h2>
+                </div>
+                <div class="menu__wrapper">
+                    <div class="menu__item">
+                        <div class="menu__img">
+                            <img src="./images/product-01.png" alt="">
+                        </div>
+                        <h3>American Pasta</h3>
+                        <div class="menu__card-bottom">
+                            <div>
+                        <div class="ratings">
+                            <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                        </div>
+                        <span class="dish__price">$30.99</span>
+                    </div>
+                    <span class="add__to-cart">
+                    <button onclick="addToCart('register')" class="ri-shopping-cart-line"></button>
+                </span>
+                    <!--
+                            <span class="add__to-cart">
+                                <i onclick="#.register"class="ri-shopping-cart-line"></i>
+                            </span> -->
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img">
+                            <img src="./images/product-02.png" alt="">
+                        </div>
+                        <h3>Quintao Nuts</h3>
+                        <div class="menu__card-bottom">
+                            <div>
+                        <div class="ratings">
+                            <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                        </div>
+                        <span class="dish__price">$22.99</span>
+                    </div>
+                            <span class="add__to-cart">
+                                <i class="ri-shopping-cart-line"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img">
+                            <img src="./images/product-03.png" alt="">
+                        </div>
+                        <h3>Buzz nodles<h3>
+                        <div class="menu__card-bottom">
+                            <div>
+                        <div class="ratings">
+                            <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-s-fill"></span>
+                                <span class="i ri-star-half-s-line"></span>
+                        </div>
+                        <span class="dish__price">$27.99</span>
+                    </div>
+                            <span class="add__to-cart">
+                                <i class="ri-shopping-cart-line"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--offer section-->
+        <section class="section">
+            <div class="container">
+                <div class="offer__wrapper">
+                    <div class="offer__content">
+                        <h2>Get upto <span class="highlight">50%</span>
+                            offer on festival</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                 Natus voluptas aut ad fugit, laboriosam aspernatur debitis, 
+                                 earum sequi maiores quam voluptatem ut provident.
+                                 Ad itaque illum, debitis asperiores quae autem.</p>
+                                 <button class="view__more-btn">Order Now</button>
+                    </div>
+                    <div class="offer__img">
+                        <img src="./images/offer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--blog section-->
+        <section class="section" id="blog">
+            <div class="container">
+             <div class="blog__top">
+                <h2>Our Top Recipes</h2>
+             </div>
+             <div class="blog__wrapper">
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-01.jpg" alt="">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             </p>
+                             <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-02.jpg" alt="">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             </p>
+                             <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-03.jpg" alt="">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             </p>
+                             <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+             </div>
+            </div>
+      <!-- register section-->
+        </section>
+        <section class="registration" id="register">
+            <div class="container">
+                <h2>Register <span>Here</span></h2>
+                <form action="" onsubmit="return validateform()">
+                   <div class="register__wrapper">
+                    <div class="register__input">
+                        <label for="name">Name:</label>
+                <input type="text" name="myname1" placeholder="Name" id="name" required> 
+                <label for="email"> Email:</label>
+                <input type="email" name="myemail" placeholder="Email-Id" > 
+                <label for="myphone">Phone:</label>
+                <input type="tel" name="myphone" placeholder="Phone No." id="phonenum" required>
+            
+            </div>
+                <h4>Location</h4>
+                <input type="text" name="location" placeholder="piassa" required>
+            
+                   </div>
+                
+                <input type="checkbox" name="t&c" id="" checked required>
+                <p>I accept the Terms & Conditions.</p> 
+                <br> <br> 
+                <div class="register__btn">
+                
+                <input type="submit" value="Submit" class="submitbtn">
+               </div>
+             </form>
+            </div>
+        </section>
+    
+    </main>
+    <footer class="section footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <div class="logo">
+                        <h1>Burger<span class="highlight">King</span></h1>
+                        </div>
+                        <p>Subscribe to our newsletter</p>
+                        <div class="subscribe__box">
+                            <input type="email" placeholder="Your email">
+                            <button class="subscribe__btn">Subscribe</button>
+                            
+                        </div>
+                    </div>
+                    <div class="footer__box">
+                        <h3 class="footer Link-title">Information</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#about"
+                            class="footer__link">About</a></li>
+                        <li class="footer__menu-item"><a href="#"
+                            class="footer__link">Events</a></li>
+                        <li class="footer__menu-item"><a href="#"
+                            class="footer__link">Career</a></li>
+                        <li class="footer__menu-item"><a href="#"
+                            class="footer__link">Our Chefs</a></li>        
+                    </ul>
+               
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer Link-title">Services</h3>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#about"
+                        class="footer__link">Online order</a></li>
+                    <li class="footer__menu-item"><a href="#"
+                        class="footer__link">24/7</a></li>
+                    <li class="footer__menu-item"><a href="#"
+                        class="footer__link">Pre-reservation</a></li>
+                    <li class="footer__menu-item"><a href="#"
+                        class="footer__link">Foodie Place</a></li>        
+                </ul>
+           
+            </div>
+            <div class="footer__box">
+                <h3 class="footer Link-title">Quick</h3>
+            <ul class="footer__menu">
+                <li class="footer__menu-item"><a href="#menu"
+                    class="footer__link">Menu</a></li>
+                <li class="footer__menu-item"><a href="#blog"
+                    class="footer__link">Blog</a></li>
+                <li class="footer__menu-item"><a href="#about"
+                    class="footer__link">About Us</a></li>
+                <li class="footer__menu-item"><a href="#"
+                    class="footer__link">Offer</a></li>        
+            </ul>
+       
+        </div>
+        <div class="footer__box">
+            <h3 class="footer Link-title">Social</h3>
+        <ul class="footer__menu">
+            <li class="footer__menu-item"><a href="#"
+                class="footer__link">Facebook</a></li>
+            <li class="footer__menu-item"><a href="#"
+                class="footer__link">instagram</a></li>
+            <li class="footer__menu-item"><a href="#"
+                class="footer__link">Linkedin</a></li>
+            <li class="footer__menu-item"><a href="#"
+                class="footer__link">Youtube</a></li>        
+        </ul>
+   
+           </div>
+         </div>
+              <p class="footer__copyright">Developed by Kusha Jr.All rights reserved.
+              </p>  
+        </div>
+        
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
